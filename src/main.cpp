@@ -6,7 +6,7 @@
 
 int main(int argc, const char *argv[]){
     cout<<"Welcome to the UNA"<<endl;
-    cout<<"Laboratorio 1 Aslie Cardenas"<<endl<<endl;
+    cout<<"Laboratorio 1 Aslie Cardenas Sandoval"<<endl<<endl;
     Derived1 d1("Tipo 1");
     d1.doSomething();
     cout<<d1.toString()<<endl;
