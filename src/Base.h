@@ -12,12 +12,12 @@ class Base {
 protected:
     string tipo;
 public:
-    Base();
+    Base(string);
     virtual ~Base();
     virtual void doSomething();
     void setTipo(string);
     string getTipo();
-    virtual string toString();
+    virtual string toString()=0;
 };
 
 

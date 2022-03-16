@@ -4,8 +4,8 @@
 
 #include "Base.h"
 
-Base::Base() {
-    tipo=" ";
+Base::Base(string t) {
+    tipo=t;
 }
 
 Base::~Base() {
@@ -24,10 +24,6 @@ string Base::getTipo() {
     return tipo;
 }
 
-string Base::toString() {
-    stringstream s;
-    s<<"Tipo: "<<getTipo()<<endl;
-    return s.str();
-}
+
 
 
