@@ -11,7 +11,7 @@ class Derived2:public Base {
 public:
     Derived2(string);
     ~Derived2();
-    void doSomethig();
+    void doSomething() override;
     string toString();
 };
 

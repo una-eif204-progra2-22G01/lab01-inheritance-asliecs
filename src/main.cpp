@@ -12,7 +12,7 @@ int main(int argc, const char *argv[]){
     cout<<d1.toString()<<endl;
 
     Derived2 d2("Tipo 2");
-    d2.doSomethig();
+    d2.doSomething();
     cout<<d2.toString()<<endl;
 }
 

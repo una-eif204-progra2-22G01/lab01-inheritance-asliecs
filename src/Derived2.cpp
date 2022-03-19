@@ -13,7 +13,7 @@ Derived2::~Derived2() {
 
 }
 
-void Derived2::doSomethig() {
+void Derived2::doSomething() {
     cout<<"Derived 2!!!"<<endl;
 }
 
